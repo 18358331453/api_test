@@ -1,0 +1,46 @@
+2019-03-21 14:54:33,444 - logger.py - INFO --测试开始--
+2019-03-21 14:54:33,451 - logger.py - INFO 操作步骤1,2,3
+2019-03-21 14:54:33,455 - logger.py - WARNING ----测试结束----
+2019-03-21 14:54:33,459 - logger.py - INFO 1111
+2019-03-21 15:07:21,223 - logger.py - INFO 开始登录前获取验证码操作
+2019-03-21 15:07:21,271 - logger.py - INFO 获取验证码操作结果{'code': '000000', 'message': '请求成功', 'sysMark': None, 'data': None}
+2019-03-21 15:07:21,275 - logger.py - INFO 获取是否获取验证码成功请求成功
+2019-03-21 15:07:52,783 - logger.py - INFO 开始登录前获取验证码操作
+2019-03-21 15:07:52,829 - logger.py - INFO 获取验证码操作结果{'data': None, 'sysMark': None, 'code': '000000', 'message': '请求成功'}
+2019-03-21 15:07:52,835 - logger.py - INFO 获取是否获取验证码成功请求成功
+2019-03-21 15:08:04,502 - logger.py - INFO 开始登录前获取验证码操作
+2019-03-21 15:08:04,545 - logger.py - INFO 获取验证码操作结果{'sysMark': None, 'data': None, 'message': '请求成功', 'code': '000000'}
+2019-03-21 15:08:04,550 - logger.py - INFO 获取是否获取验证码成功 请求成功
+2019-03-21 15:08:51,206 - logger.py - INFO 开始登录前获取验证码操作
+2019-03-21 15:08:51,245 - logger.py - INFO 获取验证码操作结果{'message': '请求成功', 'code': '000000', 'data': None, 'sysMark': None}
+2019-03-21 15:08:51,250 - logger.py - INFO 获取是否获取验证码成功请求成功
+2019-03-21 15:12:46,503 - logger.py - INFO 开始登录前获取验证码操作
+2019-03-21 15:12:46,542 - logger.py - INFO 获取验证码操作结果{'code': '000000', 'message': '请求成功', 'data': None, 'sysMark': None}
+2019-03-21 15:12:46,547 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-03-21 15:24:39,770 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358331453
+2019-03-21 15:24:39,819 - logger.py - INFO 获取验证码操作结果{'message': '请求成功', 'sysMark': None, 'code': '000000', 'data': None}
+2019-03-21 15:24:39,826 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-03-21 15:24:39,834 - logger.py - INFO 开始执行登录操作
+2019-03-21 15:26:55,244 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358331453
+2019-03-21 15:26:55,286 - logger.py - INFO 获取验证码操作结果{'data': None, 'sysMark': None, 'message': '请求成功', 'code': '000000'}
+2019-03-21 15:26:55,291 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-03-21 15:26:55,295 - logger.py - INFO 开始执行登录操作
+2019-03-21 15:26:55,343 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-03-21 15:27:46,940 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358331453
+2019-03-21 15:27:46,992 - logger.py - INFO 获取验证码操作结果{'sysMark': None, 'message': '请求成功', 'data': None, 'code': '000000'}
+2019-03-21 15:27:46,996 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-03-21 15:27:47,001 - logger.py - INFO 开始执行登录操作
+2019-03-21 15:27:47,039 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-03-21 15:27:47,043 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMDk3Njg0MTI4Mjc2OTcxNTIyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5p2o5YWI55SfIiwiZXhwIjoxNTUzMzI2MDY1LCJfIjoxNTUzMTUzMjY1MzEzfQ.Yw3IXHj53rTMxkBvfaPJZe_LYN_2GtVYbUfoWTLjLq4
+2019-03-21 15:28:03,598 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358331453
+2019-03-21 15:28:03,648 - logger.py - INFO 获取验证码操作结果{'sysMark': None, 'code': '000000', 'message': '请求成功', 'data': None}
+2019-03-21 15:28:03,652 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-03-21 15:28:03,657 - logger.py - INFO 开始执行登录操作
+2019-03-21 15:28:03,688 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-03-21 15:28:03,692 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMDk3Njg0MTI4Mjc2OTcxNTIyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5p2o5YWI55SfIiwiZXhwIjoxNTUzMzI2MDgxLCJfIjoxNTUzMTUzMjgxOTY1fQ.NjE1l0dQkRK-ZZw03WYkJlpdqDiwV00MQdC-lW3cjfg
+2019-03-21 15:28:52,075 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358331453
+2019-03-21 15:28:52,127 - logger.py - INFO 获取验证码操作结果{'message': '请求成功', 'code': '000000', 'data': None, 'sysMark': None}
+2019-03-21 15:28:52,131 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-03-21 15:28:52,134 - logger.py - INFO 开始执行登录操作
+2019-03-21 15:28:52,172 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-03-21 15:28:52,176 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMDk3Njg0MTI4Mjc2OTcxNTIyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5p2o5YWI55SfIiwiZXhwIjoxNTUzMzI2MTMwLCJfIjoxNTUzMTUzMzMwNDQxfQ.HnYV3zw3APxY3OqXT08hLgHnsDuO1RCsBzprnlnzS3U
