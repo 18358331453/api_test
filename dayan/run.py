@@ -1,10 +1,10 @@
 #coding=utf-8
 import sys
-sys.path.append("D:\py_workspace")
-# sys.path.append("D:\py_workspace\dayan")
+# sys.path.append("D:\py_workspace")
+sys.path.append("D:\py_workspace\DYJR")
 import unittest
 from HTMLTestRunner import HTMLTestRunner
-from dayan.common.send_mail import send_email_qq
+from dayan.common.send_mail_1 import send_email_qq
 import os
 import time
 

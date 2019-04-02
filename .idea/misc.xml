@@ -26,25 +26,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>SQL</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>SqlDialectInspection</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.4.3 (C:\Python34\python.exe)" project-jdk-type="Python SDK" />
   <component name="masterDetails">
     <states>
