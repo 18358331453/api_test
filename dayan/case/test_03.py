@@ -16,14 +16,14 @@ class Test_info(unittest.TestCase):
     #1是新闻资讯，后面的数据是页码
     def test_news(self):
         """测试新闻"""
-        url="http://192.168.45.191//api/dayan/colligate/information/list/1/1"
+        url="http://192.168.100.142//api/dayan/colligate/information/list/1/1"
         r=requests.get(url,headers=self.headers)
         print(r.text)
 
         #2是活动资讯，后面的数据是页码
     def test_activity(self):
         """测试资讯"""
-        url="http://192.168.45.191//api/dayan/colligate/information/list/2/1"
+        url="http://192.168.100.142//api/dayan/colligate/information/list/2/1"
         r=requests.get(url,headers=self.headers)
         print(r.text)
 

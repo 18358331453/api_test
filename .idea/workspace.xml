@@ -2,44 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="245d95bf-38a4-40b7-b165-96b66eeb917a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dayan/case/test_register.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dayan/common/sql.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/common/send_mail.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190301160409result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190301160443result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190301160525result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190301160538result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190301160710result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190321152851result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190322173505result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190322174450result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190322174458result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190322174611result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325110457result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325110544result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325110627result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325110658result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325113124result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325113438result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325113813result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325115204result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325133815result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325133951result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325134228result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325134445result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325134626result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325140300result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325140409result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190325140608result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190401173541result.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dayan/report/20190401174031result.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DYJR.iml" afterPath="$PROJECT_DIR$/.idea/DYJR.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dayan/case/1test_enregister.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dayan/case/test_enregister.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dayan/case/test_enregister_together.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dayan/case/test_commit.py" afterPath="$PROJECT_DIR$/dayan/case/test_commit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dayan/common/get_newreport.py" afterPath="$PROJECT_DIR$/dayan/common/get_newreport.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dayan/common/login.py" afterPath="$PROJECT_DIR$/dayan/common/login.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dayan/run.py" afterPath="$PROJECT_DIR$/dayan/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dayan/case/1test_02.py" afterPath="$PROJECT_DIR$/dayan/case/1test_02.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dayan/case/test_03.py" afterPath="$PROJECT_DIR$/dayan/case/test_03.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dayan/common/db_test.py" afterPath="$PROJECT_DIR$/dayan/common/db_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dayan/common/token.yaml" afterPath="$PROJECT_DIR$/dayan/common/token.yaml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,16 +20,21 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DYJR$db_test.coverage" NAME="db_test Coverage Results" MODIFIED="1554190585443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
-    <SUITE FILE_PATH="coverage/DYJR$dy.coverage" NAME="dy Coverage Results" MODIFIED="1554192155010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
+    <SUITE FILE_PATH="coverage/DYJR$dy.coverage" NAME="dy Coverage Results" MODIFIED="1554258993706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
     <SUITE FILE_PATH="coverage/DYJR$test_commit.coverage" NAME="test_commit Coverage Results" MODIFIED="1554112946527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/DYJR$run.coverage" NAME="run Coverage Results" MODIFIED="1554115394792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan" />
     <SUITE FILE_PATH="coverage/DYJR$get_newreport.coverage" NAME="get_newreport Coverage Results" MODIFIED="1554113903930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
-    <SUITE FILE_PATH="coverage/DYJR$py_test_in_test_03_py.coverage" NAME="py.test in test_03.py Coverage Results" MODIFIED="1554112455517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/DYJR$send_mail.coverage" NAME="send_mail Coverage Results" MODIFIED="1554113453995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
-    <SUITE FILE_PATH="coverage/DYJR$login.coverage" NAME="login Coverage Results" MODIFIED="1554194986758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
-    <SUITE FILE_PATH="coverage/DYJR$test_register.coverage" NAME="test_register Coverage Results" MODIFIED="1554198938022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/case" />
-    <SUITE FILE_PATH="coverage/DYJR$test.coverage" NAME="test Coverage Results" MODIFIED="1554192065416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
+    <SUITE FILE_PATH="coverage/DYJR$Unittests_in_test_03.coverage" NAME="Unittests in test_03 Coverage Results" MODIFIED="1554259819155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/case" />
+    <SUITE FILE_PATH="coverage/DYJR$1test_02.coverage" NAME="1test_02 Coverage Results" MODIFIED="1554260691674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/case" />
     <SUITE FILE_PATH="coverage/DYJR$sql.coverage" NAME="sql Coverage Results" MODIFIED="1554190370789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
+    <SUITE FILE_PATH="coverage/DYJR$test_enregister__1_.coverage" NAME="test_enregister (1) Coverage Results" MODIFIED="1554274510831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/case" />
+    <SUITE FILE_PATH="coverage/DYJR$run.coverage" NAME="run Coverage Results" MODIFIED="1554115394792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan" />
+    <SUITE FILE_PATH="coverage/DYJR$test_enregister.coverage" NAME="test_enregister Coverage Results" MODIFIED="1554273155127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/case" />
+    <SUITE FILE_PATH="coverage/DYJR$py_test_in_test_03_py.coverage" NAME="py.test in test_03.py Coverage Results" MODIFIED="1554112455517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/DYJR$login.coverage" NAME="login Coverage Results" MODIFIED="1554194986758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
+    <SUITE FILE_PATH="coverage/DYJR$test_register.coverage" NAME="test_register Coverage Results" MODIFIED="1554258675446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/case" />
+    <SUITE FILE_PATH="coverage/DYJR$test_enregister_together.coverage" NAME="test_enregister_together Coverage Results" MODIFIED="1554273989036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/case" />
+    <SUITE FILE_PATH="coverage/DYJR$test.coverage" NAME="test Coverage Results" MODIFIED="1554192065416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dayan/common" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -67,27 +42,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="1test_01.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dayan/case/1test_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="db_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayan/common/db_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-              <folding />
+            <state relative-caret-position="442">
+              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#28#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_commit.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_commit.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dayan/case/test_commit.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -97,14 +64,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_register.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_register.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayan/case/test_register.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+            <state relative-caret-position="-52">
+              <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
-                <marker date="1554198938011" expanded="true" signature="446:503" ph="DELETE FROM " />
+                <marker date="1554261624380" expanded="true" signature="446:503" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1test_enregister.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dayan/case/1test_enregister.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-870">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="19" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+                <marker date="1554273155116" expanded="true" signature="1945:2027" ph="DELETE FROM " />
+                <marker date="1554273155116" expanded="true" signature="2074:2171" ph="DELETE FROM " />
+                <marker date="1554273155116" expanded="true" signature="2206:2287" ph="DELETE from " />
+                <marker date="1554273155116" expanded="true" signature="2318:2434" ph="UPDATE dy_pr... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_enregister_together.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dayan/case/test_enregister_together.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-468">
+              <caret line="11" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="19" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+                <marker date="1554273989025" expanded="true" signature="423:505" ph="DELETE FROM " />
+                <marker date="1554273989025" expanded="true" signature="552:649" ph="DELETE FROM " />
+                <marker date="1554273989025" expanded="true" signature="684:765" ph="DELETE from " />
+                <marker date="1554273989025" expanded="true" signature="796:912" ph="UPDATE dy_pr... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_enregister.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dayan/case/test_enregister.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1116">
+              <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+              <folding>
+                <element signature="e#14#29#0" expanded="true" />
+                <marker date="1554274494512" expanded="true" signature="423:505" ph="DELETE FROM " />
+                <marker date="1554274494512" expanded="true" signature="552:649" ph="DELETE FROM " />
+                <marker date="1554274494512" expanded="true" signature="684:765" ph="DELETE from " />
+                <marker date="1554274494512" expanded="true" signature="796:912" ph="UPDATE dy_pr... " />
               </folding>
             </state>
           </provider>
@@ -113,8 +128,8 @@
       <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayan/common/logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="-205">
+              <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
               <folding>
                 <element signature="e#14#33#0" expanded="true" />
               </folding>
@@ -122,46 +137,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sql.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dayan/common/sql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayan/common/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="104">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_日志登录测试.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dayan/case/test_日志登录测试.py">
+      <file leaf-file-name="test_生成好看的测试报告.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dayan/case/test_生成好看的测试报告.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-26">
-              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_03.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dayan/case/test_03.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-              <folding>
-                <element signature="e#14#29#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -169,8 +160,8 @@
       <file leaf-file-name="1test_02.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dayan/case/1test_02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+            <state relative-caret-position="260">
+              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="e#14#29#0" expanded="true" />
               </folding>
@@ -187,6 +178,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setup</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -198,10 +194,16 @@
         <option value="$PROJECT_DIR$/dayan/run.py" />
         <option value="$PROJECT_DIR$/dayan/common/sql.py" />
         <option value="$PROJECT_DIR$/dayan/common/test.py" />
-        <option value="$PROJECT_DIR$/dayan/common/dy.py" />
-        <option value="$PROJECT_DIR$/dayan/common/db_test.py" />
         <option value="$PROJECT_DIR$/dayan/common/login.py" />
+        <option value="$PROJECT_DIR$/dayan/common/dy.py" />
+        <option value="$PROJECT_DIR$/dayan/case/test_03.py" />
+        <option value="$PROJECT_DIR$/dayan/common/token.yaml" />
+        <option value="$PROJECT_DIR$/dayan/case/1test_02.py" />
         <option value="$PROJECT_DIR$/dayan/case/test_register.py" />
+        <option value="$PROJECT_DIR$/dayan/common/db_test.py" />
+        <option value="$PROJECT_DIR$/dayan/test_enregister_together.py" />
+        <option value="$PROJECT_DIR$/dayan/case/test_enregister_together.py" />
+        <option value="$PROJECT_DIR$/dayan/case/test_enregister.py" />
       </list>
     </option>
   </component>
@@ -280,7 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,69 +320,41 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="D:/Git/cmd/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\py_workspace\DYJR\dayan\case" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\py_workspace\DYJR" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_register">
-    <configuration default="false" name="db_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.test_enregister (1)">
+    <configuration default="false" name="Unittests in test_03" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayan/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayan/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DYJR" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayan/common/db_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayan/case/test_03.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="dy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayan/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DYJR" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayan/common/dy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayan/common" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DYJR" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayan/common/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="test_register" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="1test_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -393,25 +367,61 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DYJR" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayan/case/test_register.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayan/case/1test_02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test_enregister" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayan/common" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayan/case" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DYJR" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayan/common/login.py" />
+      <option name="SCRIPT_NAME" value="D:\py_workspace\DYJR\dayan\case\1test_enregister.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_enregister_together" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayan/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DYJR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayan/case/test_enregister_together.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="test_enregister (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dayan/case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DYJR" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dayan/case/test_enregister.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -655,19 +665,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python tests.test_commit" />
-      <item index="1" class="java.lang.String" itemvalue="Python.db_test" />
-      <item index="2" class="java.lang.String" itemvalue="Python.dy" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.test_register" />
-      <item index="5" class="java.lang.String" itemvalue="Python.login" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_03" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1test_02" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_enregister" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_enregister_together" />
+      <item index="5" class="java.lang.String" itemvalue="Python.test_enregister (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.test_register" />
-        <item index="1" class="java.lang.String" itemvalue="Python.login" />
-        <item index="2" class="java.lang.String" itemvalue="Python.dy" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test" />
-        <item index="4" class="java.lang.String" itemvalue="Python.db_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_enregister (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_enregister_together" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test_enregister" />
+        <item index="3" class="java.lang.String" itemvalue="Python.1test_02" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_03" />
       </list>
     </recent_temporary>
   </component>
@@ -685,8 +695,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_test_03_py - 2019.04.01 at 17h 45m 33s.xml">
-      <configuration name="py.test in test_03.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_03 - 2019.04.03 at 10h 50m 21s.xml">
+      <configuration name="Unittests in test_03" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_test_03_py - 2019.04.01 at 17h 48m 31s.xml">
       <configuration name="py.test in test_03.py" configurationId="tests" />
@@ -718,17 +728,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="0" width="1942" height="1042" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22894168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23272139" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.378882" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44223604" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32961586" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29068324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -749,18 +759,58 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dayan/common/db_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/case/test_commit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/case/test_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+            <marker date="1554261624380" expanded="true" signature="446:503" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/common/send_mail_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dayan/case/实名的.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#56#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -768,9 +818,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#29#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -786,9 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#56#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -796,9 +841,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#29#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -814,9 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#56#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -826,9 +866,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#56#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,28 +878,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dayan/common/send_mail_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#14#28#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/common/test.py" />
     <entry file="file://$PROJECT_DIR$/dayan/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dayan/common/test.py">
+    <entry file="file://$PROJECT_DIR$/dayan/common/send_mail_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="130">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/config/readcfg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/config/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/config/cfg.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/common/sql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1118">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -880,17 +942,35 @@
         <state relative-caret-position="156">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <marker date="1554192154987" expanded="true" signature="63:89" ph="SELECT * FRO... dy_user_info" />
+            <marker date="1554259004421" expanded="true" signature="63:89" ph="SELECT * FRO... dy_user_info" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dayan/case/1test_02.py">
+    <entry file="file://$PROJECT_DIR$/dayan/case/test_日志登录测试.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+        <state relative-caret-position="-520">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <element signature="e#14#29#0" expanded="true" />
+            <element signature="e#14#29#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/case/后台汇款导入.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/case/test_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+          <folding>
+            <element signature="e#14#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -903,56 +983,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dayan/common/sql.py">
+    <entry file="file://$PROJECT_DIR$/dayan/获取token并写入yaml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="25" column="4" lean-forward="false" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/common/token.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/common/get_token.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/case/1test_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/case/test_生成好看的测试报告.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python34/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="418" column="23" lean-forward="false" selection-start-line="418" selection-start-column="23" selection-end-line="418" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dayan/common/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="104">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dayan/common/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-205">
+          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
           <folding>
             <element signature="e#14#33#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dayan/case/test_03.py">
+    <entry file="file://$PROJECT_DIR$/dayan/case/test_register.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="-52">
+          <caret line="13" column="25" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="e#14#29#0" expanded="true" />
+            <marker date="1554261624380" expanded="true" signature="446:503" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dayan/common/db_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="442">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dayan/case/test_日志登录测试.py">
+    <entry file="file://$PROJECT_DIR$/dayan/case/1test_enregister.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="-870">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="19" />
           <folding>
             <element signature="e#14#29#0" expanded="true" />
+            <marker date="1554273155116" expanded="true" signature="1945:2027" ph="DELETE FROM " />
+            <marker date="1554273155116" expanded="true" signature="2074:2171" ph="DELETE FROM " />
+            <marker date="1554273155116" expanded="true" signature="2206:2287" ph="DELETE from " />
+            <marker date="1554273155116" expanded="true" signature="2318:2434" ph="UPDATE dy_pr... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/case/test_enregister_together.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="11" column="61" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="48" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+            <marker date="1554273989025" expanded="true" signature="423:505" ph="DELETE FROM " />
+            <marker date="1554273989025" expanded="true" signature="552:649" ph="DELETE FROM " />
+            <marker date="1554273989025" expanded="true" signature="684:765" ph="DELETE from " />
+            <marker date="1554273989025" expanded="true" signature="796:912" ph="UPDATE dy_pr... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dayan/case/test_enregister.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1116">
+          <caret line="47" column="19" lean-forward="true" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#29#0" expanded="true" />
+            <marker date="1554274494512" expanded="true" signature="423:505" ph="DELETE FROM " />
+            <marker date="1554274494512" expanded="true" signature="552:649" ph="DELETE FROM " />
+            <marker date="1554274494512" expanded="true" signature="684:765" ph="DELETE from " />
+            <marker date="1554274494512" expanded="true" signature="796:912" ph="UPDATE dy_pr... " />
           </folding>
         </state>
       </provider>
@@ -962,17 +1123,6 @@
         <state relative-caret-position="286">
           <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dayan/case/test_register.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding>
-            <element signature="e#14#29#0" expanded="true" />
-            <marker date="1554198938011" expanded="true" signature="446:503" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>

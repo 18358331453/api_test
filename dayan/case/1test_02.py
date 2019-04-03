@@ -11,8 +11,11 @@ try:
     r=requests.get(url_getinfo,headers=headers)
     assert r.json()['data']['headImgUrl'] == None
 except KeyError:
-    e.write_yaml(e.get_token())
+    headers={"Content-Type":"application/json",
+             "token":e.write_yaml(e.get_token())
+             }
     r=requests.get(url_getinfo,headers=headers)
+    print(r.text)
     headers['token']=get_token()
     print("token已过期，重新执行")
 else:
