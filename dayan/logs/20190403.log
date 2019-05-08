@@ -884,3 +884,902 @@
 2019-04-03 14:55:11,889 - logger.py - INFO 接口请求成功
 2019-04-03 14:55:11,892 - logger.py - INFO 登记非拼团操作成功
 2019-04-03 14:55:11,896 - logger.py - INFO ===================================================================================
+2019-04-03 15:04:58,078 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:04:58,104 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:04:58,108 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:04:58,238 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:04:58,242 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:04:58,321 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:04:58,325 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:04:58,364 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:04:58,367 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:04:58,500 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:04:58,504 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:04:58,577 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:04:58,582 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'isAutoSurvival': '2', 'productId': '21', 'enregisterShare': '10'}
+2019-04-03 15:04:59,268 - logger.py - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113336572645900291","sysMark":null}
+2019-04-03 15:04:59,272 - logger.py - INFO 接口请求成功
+2019-04-03 15:04:59,275 - logger.py - INFO 登记非拼团操作成功
+2019-04-03 15:04:59,278 - logger.py - INFO ===================================================================================
+2019-04-03 15:04:59,282 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:04:59,318 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:04:59,322 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:04:59,385 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:04:59,389 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:04:59,455 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:04:59,459 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:04:59,495 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:04:59,499 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:04:59,549 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:04:59,553 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:04:59,620 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:04:59,623 - logger.py - INFO 开始执行登记拼团操作，使用数据{'isAutoSurvival': '2', 'togetherId': '1113317082612793346', 'productId': '21', 'enregisterShare': '20'}
+2019-04-03 15:04:59,858 - logger.py - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:04:59,862 - logger.py - INFO 接口请求成功
+2019-04-03 15:04:59,866 - logger.py - INFO 登记拼团操作成功
+2019-04-03 15:04:59,869 - logger.py - INFO ===================================================================================
+2019-04-03 15:04:59,872 - logger.py - INFO 开始执行数据清理操作
+2019-04-03 15:04:59,897 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:04:59,901 - logger.py - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:04:59,945 - logger.py - INFO 数据清理完成
+2019-04-03 15:05:09,950 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:05:10,061 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:05:10,066 - logger.py - INFO 开始获取实名短信验证码
+2019-04-03 15:05:10,113 - logger.py - INFO 获取实名短信验证码成功
+2019-04-03 15:05:10,117 - logger.py - INFO 开始进行实名操作
+2019-04-03 15:05:10,610 - logger.py - INFO 实名认证操作成功
+2019-04-03 15:05:10,614 - logger.py - INFO 开始进行风险评测操作
+2019-04-03 15:05:10,661 - logger.py - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 15:05:10,665 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:05:10,708 - logger.py - INFO 获取验证码操作结果{'data': None, 'sysMark': None, 'code': '000000', 'message': '请求成功'}
+2019-04-03 15:05:10,711 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 15:05:10,715 - logger.py - INFO 开始执行登录操作
+2019-04-03 15:05:10,748 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-04-03 15:05:10,752 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDQ3OTEwLCJfIjoxNTU0Mjc1MTEwNDc2fQ.jDoNgDnJkXvaBIclenctSN0cc2ekvBNyN4pVbaN98Wg
+2019-04-03 15:06:37,931 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:06:37,955 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:06:37,959 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:06:38,048 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:06:38,051 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:06:38,092 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:06:38,095 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:06:38,232 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:06:38,236 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:06:38,285 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:06:38,289 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:06:38,372 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:06:38,376 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'enregisterShare': '10', 'isAutoSurvival': '2', 'productId': '21'}
+2019-04-03 15:06:38,550 - logger.py - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113336991174524931","sysMark":null}
+2019-04-03 15:06:38,554 - logger.py - INFO 接口请求成功
+2019-04-03 15:06:38,557 - logger.py - INFO 登记非拼团操作成功
+2019-04-03 15:06:38,561 - logger.py - INFO ===================================================================================
+2019-04-03 15:06:38,564 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:06:38,589 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:06:38,593 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:06:38,668 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:06:38,674 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:06:38,755 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:06:38,759 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:06:38,800 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:06:38,804 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:06:38,842 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:06:38,845 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:06:38,911 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:06:38,915 - logger.py - INFO 开始执行登记拼团操作，使用数据{'togetherId': '1113317082612793346', 'enregisterShare': '20', 'isAutoSurvival': '2', 'productId': '21'}
+2019-04-03 15:06:39,080 - logger.py - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:06:39,087 - logger.py - INFO 接口请求成功
+2019-04-03 15:06:39,092 - logger.py - INFO 登记拼团操作成功
+2019-04-03 15:06:39,095 - logger.py - INFO ===================================================================================
+2019-04-03 15:06:39,099 - logger.py - INFO 开始执行数据清理操作
+2019-04-03 15:06:39,123 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:06:39,128 - logger.py - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:06:39,168 - logger.py - INFO 数据清理完成
+2019-04-03 15:06:49,171 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:06:49,284 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:06:49,288 - logger.py - INFO 开始获取实名短信验证码
+2019-04-03 15:06:49,356 - logger.py - INFO 获取实名短信验证码成功
+2019-04-03 15:06:49,359 - logger.py - INFO 开始进行实名操作
+2019-04-03 15:06:49,738 - logger.py - INFO 实名认证操作成功
+2019-04-03 15:06:49,742 - logger.py - INFO 开始进行风险评测操作
+2019-04-03 15:06:49,789 - logger.py - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 15:06:49,793 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:06:49,829 - logger.py - INFO 获取验证码操作结果{'code': '000000', 'message': '请求成功', 'sysMark': None, 'data': None}
+2019-04-03 15:06:49,833 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 15:06:49,836 - logger.py - INFO 开始执行登录操作
+2019-04-03 15:06:49,874 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-04-03 15:06:49,880 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDQ4MDA5LCJfIjoxNTU0Mjc1MjA5NjAyfQ.vcMrrC2kLXJPDoj768S8bAj0FxZV0FvI0ypnv6TOvGQ
+2019-04-03 15:08:34,200 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:08:34,232 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:08:34,235 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:08:34,439 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:08:34,445 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:08:34,487 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:08:34,492 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:08:34,566 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:08:34,569 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:08:34,607 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:08:34,613 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:08:34,682 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:08:34,685 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'isAutoSurvival': '2', 'enregisterShare': '10', 'productId': '21'}
+2019-04-03 15:08:34,949 - logger.py - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113337479001440259","sysMark":null}
+2019-04-03 15:08:34,956 - logger.py - INFO 接口请求成功
+2019-04-03 15:08:34,959 - logger.py - INFO 登记非拼团操作成功
+2019-04-03 15:08:34,963 - logger.py - INFO ===================================================================================
+2019-04-03 15:08:34,966 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:08:34,994 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:08:34,998 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:08:35,141 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:08:35,144 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:08:35,217 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:08:35,222 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:08:35,261 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:08:35,265 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:08:35,307 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:08:35,310 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:08:35,388 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:08:35,391 - logger.py - INFO 开始执行登记拼团操作，使用数据{'isAutoSurvival': '2', 'enregisterShare': '20', 'togetherId': '1113317082612793346', 'productId': '21'}
+2019-04-03 15:08:35,620 - logger.py - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:08:35,623 - logger.py - INFO 接口请求成功
+2019-04-03 15:08:35,627 - logger.py - INFO 登记拼团操作成功
+2019-04-03 15:08:35,631 - logger.py - INFO ===================================================================================
+2019-04-03 15:08:35,634 - logger.py - INFO 开始执行数据清理操作
+2019-04-03 15:08:35,663 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:08:35,667 - logger.py - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:08:35,724 - logger.py - INFO 数据清理完成
+2019-04-03 15:08:45,728 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:08:45,892 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:08:45,896 - logger.py - INFO 开始获取实名短信验证码
+2019-04-03 15:08:45,939 - logger.py - INFO 获取实名短信验证码成功
+2019-04-03 15:08:45,943 - logger.py - INFO 开始进行实名操作
+2019-04-03 15:08:46,253 - logger.py - INFO 实名认证操作成功
+2019-04-03 15:08:46,257 - logger.py - INFO 开始进行风险评测操作
+2019-04-03 15:08:46,427 - logger.py - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 15:08:46,432 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:08:46,475 - logger.py - INFO 获取验证码操作结果{'sysMark': None, 'code': '000000', 'message': '请求成功', 'data': None}
+2019-04-03 15:08:46,478 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 15:08:46,481 - logger.py - INFO 开始执行登录操作
+2019-04-03 15:08:46,529 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-04-03 15:08:46,533 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDQ4MTI2LCJfIjoxNTU0Mjc1MzI2MjU4fQ.2ygq6f0z5f8ULotjYgvwggkZRJGmTo61qTLgOn-1lSo
+2019-04-03 15:10:18,192 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:10:18,224 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:10:18,227 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:10:18,349 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:10:18,353 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:10:18,399 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:10:18,404 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:10:18,482 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:10:18,486 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:10:18,523 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:10:18,526 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:10:18,649 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:10:18,653 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'isAutoSurvival': '2', 'productId': '21', 'enregisterShare': '10'}
+2019-04-03 15:10:19,062 - logger.py - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113337915213250563","sysMark":null}
+2019-04-03 15:10:19,066 - logger.py - INFO 接口请求成功
+2019-04-03 15:10:19,070 - logger.py - INFO 登记非拼团操作成功
+2019-04-03 15:10:19,074 - logger.py - INFO ===================================================================================
+2019-04-03 15:10:19,077 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:10:19,105 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:10:19,109 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:10:19,331 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:10:19,335 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:10:19,395 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:10:19,398 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:10:19,439 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:10:19,443 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:10:19,479 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:10:19,483 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:10:19,550 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:10:19,554 - logger.py - INFO 开始执行登记拼团操作，使用数据{'isAutoSurvival': '2', 'productId': '21', 'togetherId': '1113317082612793346', 'enregisterShare': '20'}
+2019-04-03 15:10:19,722 - logger.py - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:10:19,726 - logger.py - INFO 接口请求成功
+2019-04-03 15:10:19,730 - logger.py - INFO 登记拼团操作成功
+2019-04-03 15:10:19,733 - logger.py - INFO ===================================================================================
+2019-04-03 15:10:19,737 - logger.py - INFO 开始执行数据清理操作
+2019-04-03 15:10:19,763 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:10:19,766 - logger.py - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:10:19,805 - logger.py - INFO 数据清理完成
+2019-04-03 15:10:29,813 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:10:29,970 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:10:29,974 - logger.py - INFO 开始获取实名短信验证码
+2019-04-03 15:10:30,018 - logger.py - INFO 获取实名短信验证码成功
+2019-04-03 15:10:30,021 - logger.py - INFO 开始进行实名操作
+2019-04-03 15:10:30,278 - logger.py - INFO 实名认证操作成功
+2019-04-03 15:10:30,281 - logger.py - INFO 开始进行风险评测操作
+2019-04-03 15:10:30,328 - logger.py - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 15:10:30,333 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:10:30,379 - logger.py - INFO 获取验证码操作结果{'sysMark': None, 'message': '请求成功', 'data': None, 'code': '000000'}
+2019-04-03 15:10:30,383 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 15:10:30,386 - logger.py - INFO 开始执行登录操作
+2019-04-03 15:10:30,452 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-04-03 15:10:30,456 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDQ4MjMwLCJfIjoxNTU0Mjc1NDMwMTg3fQ.IcZXj6KsoVu_EnlSPkqIoNeNNBCqvR9TwFEoBALzFJ4
+2019-04-03 15:11:58,491 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:11:58,519 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:11:58,523 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:11:58,601 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:11:58,607 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:11:58,660 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:11:58,664 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:11:58,737 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:11:58,743 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:11:58,784 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:11:58,787 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:11:58,864 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:11:58,868 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'productId': '21', 'enregisterShare': '10', 'isAutoSurvival': '2'}
+2019-04-03 15:11:59,106 - logger.py - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113338335583174659","sysMark":null}
+2019-04-03 15:11:59,110 - logger.py - INFO 接口请求成功
+2019-04-03 15:11:59,114 - logger.py - INFO 登记非拼团操作成功
+2019-04-03 15:11:59,118 - logger.py - INFO ===================================================================================
+2019-04-03 15:11:59,122 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:11:59,149 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:11:59,153 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:11:59,228 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:11:59,232 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:11:59,291 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:11:59,295 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:11:59,334 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:11:59,338 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:11:59,386 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:11:59,390 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:11:59,471 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:11:59,475 - logger.py - INFO 开始执行登记拼团操作，使用数据{'productId': '21', 'togetherId': '1113317082612793346', 'enregisterShare': '20', 'isAutoSurvival': '2'}
+2019-04-03 15:11:59,842 - logger.py - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:11:59,846 - logger.py - INFO 接口请求成功
+2019-04-03 15:11:59,851 - logger.py - INFO 登记拼团操作成功
+2019-04-03 15:11:59,854 - logger.py - INFO ===================================================================================
+2019-04-03 15:11:59,857 - logger.py - INFO 开始执行数据清理操作
+2019-04-03 15:11:59,892 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:11:59,896 - logger.py - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:11:59,993 - logger.py - INFO 数据清理完成
+2019-04-03 15:12:10,001 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:12:10,258 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:12:10,262 - logger.py - INFO 开始获取实名短信验证码
+2019-04-03 15:12:10,333 - logger.py - INFO 获取实名短信验证码成功
+2019-04-03 15:12:10,337 - logger.py - INFO 开始进行实名操作
+2019-04-03 15:12:10,556 - logger.py - INFO 实名认证操作成功
+2019-04-03 15:12:10,559 - logger.py - INFO 开始进行风险评测操作
+2019-04-03 15:12:10,605 - logger.py - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 15:12:10,609 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:12:10,651 - logger.py - INFO 获取验证码操作结果{'code': '000000', 'message': '请求成功', 'sysMark': None, 'data': None}
+2019-04-03 15:12:10,654 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 15:12:10,658 - logger.py - INFO 开始执行登录操作
+2019-04-03 15:12:10,686 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-04-03 15:12:10,692 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDQ4MzMwLCJfIjoxNTU0Mjc1NTMwNDIzfQ.lvX5dsPQD3C_3bn-HVV-pNyKzpikDhf2Zqpu9Ka8SAE
+2019-04-03 15:12:20,910 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:12:20,942 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:12:20,947 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:12:21,096 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:12:21,100 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:12:21,136 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:12:21,139 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:12:21,205 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:12:21,209 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:12:21,248 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:12:21,251 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:12:21,352 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:12:21,356 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'enregisterShare': '10', 'productId': '21', 'isAutoSurvival': '2'}
+2019-04-03 15:12:21,734 - logger.py - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113338429728522243","sysMark":null}
+2019-04-03 15:12:21,738 - logger.py - INFO 接口请求成功
+2019-04-03 15:12:21,741 - logger.py - INFO 登记非拼团操作成功
+2019-04-03 15:12:21,744 - logger.py - INFO ===================================================================================
+2019-04-03 15:12:21,748 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:12:21,771 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:12:21,776 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:12:21,834 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:12:21,838 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:12:21,889 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:12:21,896 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:12:21,938 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:12:21,942 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:12:21,980 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:12:21,985 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:12:22,052 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:12:22,055 - logger.py - INFO 开始执行登记拼团操作，使用数据{'enregisterShare': '20', 'togetherId': '1113317082612793346', 'productId': '21', 'isAutoSurvival': '2'}
+2019-04-03 15:12:22,428 - logger.py - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:12:22,432 - logger.py - INFO 接口请求成功
+2019-04-03 15:12:22,436 - logger.py - INFO 登记拼团操作成功
+2019-04-03 15:12:22,453 - logger.py - INFO ===================================================================================
+2019-04-03 15:12:22,458 - logger.py - INFO 开始执行数据清理操作
+2019-04-03 15:12:22,488 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:12:22,492 - logger.py - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:12:22,538 - logger.py - INFO 数据清理完成
+2019-04-03 15:12:32,543 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:12:32,674 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:12:32,678 - logger.py - INFO 开始获取实名短信验证码
+2019-04-03 15:12:32,748 - logger.py - INFO 获取实名短信验证码成功
+2019-04-03 15:12:32,752 - logger.py - INFO 开始进行实名操作
+2019-04-03 15:12:33,230 - logger.py - INFO 实名认证操作成功
+2019-04-03 15:12:33,233 - logger.py - INFO 开始进行风险评测操作
+2019-04-03 15:12:33,377 - logger.py - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 15:12:33,382 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:12:33,428 - logger.py - INFO 获取验证码操作结果{'sysMark': None, 'code': '000000', 'data': None, 'message': '请求成功'}
+2019-04-03 15:12:33,432 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 15:12:33,435 - logger.py - INFO 开始执行登录操作
+2019-04-03 15:12:33,476 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-04-03 15:12:33,479 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDQ4MzUzLCJfIjoxNTU0Mjc1NTUzMjAyfQ.HjrA12BuccRuDEZTMX4QjwBlx0_V2VVYIeTxxFmplUI
+2019-04-03 15:15:43,007 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:15:43,035 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:15:43,039 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:15:43,106 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:15:43,110 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:15:43,149 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:15:43,153 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:15:43,223 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:15:43,227 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:15:43,276 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:15:43,280 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:15:43,342 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:15:43,346 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'enregisterShare': '10', 'isAutoSurvival': '2', 'productId': '21'}
+2019-04-03 15:15:43,539 - logger.py - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113339276948570114","sysMark":null}
+2019-04-03 15:15:43,542 - logger.py - INFO 接口请求成功
+2019-04-03 15:15:43,545 - logger.py - INFO 登记非拼团操作成功
+2019-04-03 15:15:43,548 - logger.py - INFO ===================================================================================
+2019-04-03 15:15:43,552 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:15:43,585 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:15:43,589 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:15:43,656 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:15:43,660 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:15:43,736 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:15:43,740 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:15:43,788 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:15:43,792 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:15:43,831 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:15:43,835 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:15:43,911 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:15:43,915 - logger.py - INFO 开始执行登记拼团操作，使用数据{'enregisterShare': '20', 'isAutoSurvival': '2', 'togetherId': '1113317082612793346', 'productId': '21'}
+2019-04-03 15:15:44,304 - logger.py - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:15:44,308 - logger.py - INFO 接口请求成功
+2019-04-03 15:15:44,311 - logger.py - INFO 登记拼团操作成功
+2019-04-03 15:15:44,315 - logger.py - INFO ===================================================================================
+2019-04-03 15:15:44,318 - logger.py - INFO 开始执行数据清理操作
+2019-04-03 15:15:44,349 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:15:44,353 - logger.py - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:15:44,399 - logger.py - INFO 数据清理完成
+2019-04-03 15:15:54,402 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:15:54,550 - logger.py - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:15:54,554 - logger.py - INFO 开始获取实名短信验证码
+2019-04-03 15:15:54,606 - logger.py - INFO 获取实名短信验证码成功
+2019-04-03 15:15:54,609 - logger.py - INFO 开始进行实名操作
+2019-04-03 15:15:54,854 - logger.py - INFO 实名认证操作成功
+2019-04-03 15:15:54,857 - logger.py - INFO 开始进行风险评测操作
+2019-04-03 15:15:54,903 - logger.py - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 15:15:54,907 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:15:54,946 - logger.py - INFO 获取验证码操作结果{'sysMark': None, 'message': '请求成功', 'data': None, 'code': '000000'}
+2019-04-03 15:15:54,949 - logger.py - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 15:15:54,952 - logger.py - INFO 开始执行登录操作
+2019-04-03 15:15:54,984 - logger.py - INFO 获取是否登录成功结果:请求成功
+2019-04-03 15:15:54,988 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDQ4NTU0LCJfIjoxNTU0Mjc1NzU0NzE5fQ.1hiyq3c0RoCXHtbfu704csrrWEg04zXjJO0ASMEKTu0
+2019-04-03 15:18:32,374 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:18:32,450 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:18:32,454 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'isAutoSurvival': '2', 'enregisterShare': '10', 'productId': '21'}
+2019-04-03 15:18:32,492 - logger.py - INFO 登记非拼团操作状态码200,返回数据为{"code":"910023","message":"您已参与过该产品登记!","data":null,"sysMark":"ProductSysMark"}
+2019-04-03 15:18:32,496 - logger.py - INFO 接口请求成功，状态码200
+2019-04-03 15:18:32,500 - logger.py - INFO 开始校验登记结果
+2019-04-03 15:18:32,504 - logger.py - INFO 开始执行数据库连接操作
+2019-04-03 15:18:32,532 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:32,535 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:18:32,645 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:32,648 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:18:32,692 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:32,696 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:18:32,765 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:32,769 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:18:32,919 - logger.py - INFO 关闭数据库连接
+2019-04-03 15:18:32,926 - logger.py - INFO ===================================================================================
+2019-04-03 15:18:32,932 - logger.py - INFO 开始执行登记拼团操作，使用数据{'isAutoSurvival': '2', 'enregisterShare': '20', 'productId': '21', 'togetherId': '1113317082612793346'}
+2019-04-03 15:18:33,093 - logger.py - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:18:33,097 - logger.py - INFO 接口请求成功
+2019-04-03 15:18:33,101 - logger.py - INFO 登记拼团操作成功
+2019-04-03 15:18:33,104 - logger.py - INFO 开始执行数据库连接操作
+2019-04-03 15:18:33,131 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:33,135 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:18:33,354 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:33,361 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:18:33,403 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:33,407 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:18:33,479 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:33,482 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:18:33,519 - logger.py - INFO 关闭数据库连接
+2019-04-03 15:18:33,526 - logger.py - INFO ===================================================================================
+2019-04-03 15:18:46,372 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:18:46,403 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:46,407 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:18:46,445 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:46,449 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:18:46,486 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:46,491 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:18:46,529 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:18:46,534 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:18:46,549 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:18:46,553 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:18:46,664 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:18:46,668 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'enregisterShare': '10', 'productId': '21', 'isAutoSurvival': '2'}
+2019-04-03 15:18:46,827 - logger.py - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113340045923876866","sysMark":null}
+2019-04-03 15:18:46,831 - logger.py - INFO 接口请求成功
+2019-04-03 15:18:46,835 - logger.py - INFO 登记非拼团操作成功
+2019-04-03 15:18:46,839 - logger.py - INFO ===================================================================================
+2019-04-03 15:20:44,452 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:20:44,456 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:20:44,527 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:20:44,531 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:20:44,616 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:20:44,620 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:20:44,660 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:20:44,664 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:22:08,943 - logger.py - INFO 开始运行用例前的数据清理
+2019-04-03 15:22:08,982 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:22:08,986 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:22:09,066 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:22:09,070 - logger.py - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:22:09,146 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:22:09,150 - logger.py - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:22:09,190 - logger.py - INFO 开始执行sql语句
+2019-04-03 15:22:09,194 - logger.py - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:22:09,241 - logger.py - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:22:09,245 - logger.py - INFO 开始测试前的账号登陆准备
+2019-04-03 15:22:09,317 - logger.py - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:22:09,322 - logger.py - INFO 开始执行登记非拼团操作，使用数据{'isAutoSurvival': '2', 'enregisterShare': '10', 'productId': '21'}
+2019-04-03 15:22:09,689 - logger.py - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113340895853445123","sysMark":null}
+2019-04-03 15:22:09,693 - logger.py - INFO 接口请求成功
+2019-04-03 15:22:09,697 - logger.py - INFO 登记非拼团操作成功
+2019-04-03 15:22:09,701 - logger.py - INFO ===================================================================================
+2019-04-03 15:24:14,007 - logger - INFO 开始运行用例前的数据清理
+2019-04-03 15:24:14,033 - logger - INFO 开始执行sql语句
+2019-04-03 15:24:14,037 - logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:24:14,108 - logger - INFO 开始执行sql语句
+2019-04-03 15:24:14,111 - logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:24:14,174 - logger - INFO 开始执行sql语句
+2019-04-03 15:24:14,178 - logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:24:14,219 - logger - INFO 开始执行sql语句
+2019-04-03 15:24:14,223 - logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:24:14,261 - logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:24:14,266 - logger - INFO 开始测试前的账号登陆准备
+2019-04-03 15:24:14,347 - logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:24:14,352 - logger - INFO 开始执行登记非拼团操作，使用数据{'isAutoSurvival': '2', 'productId': '21', 'enregisterShare': '10'}
+2019-04-03 15:24:14,642 - logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113341420288245763","sysMark":null}
+2019-04-03 15:24:14,646 - logger - INFO 接口请求成功
+2019-04-03 15:24:14,649 - logger - INFO 登记非拼团操作成功
+2019-04-03 15:24:14,653 - logger - INFO ===================================================================================
+2019-04-03 15:24:34,304 - console - INFO 开始运行用例前的数据清理
+2019-04-03 15:24:34,450 - console - INFO 开始执行sql语句
+2019-04-03 15:24:34,457 - console - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:24:34,532 - console - INFO 开始执行sql语句
+2019-04-03 15:24:34,536 - console - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:24:34,603 - console - INFO 开始执行sql语句
+2019-04-03 15:24:34,607 - console - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:24:34,660 - console - INFO 开始执行sql语句
+2019-04-03 15:24:34,663 - console - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:24:34,710 - console - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:24:34,714 - console - INFO 开始测试前的账号登陆准备
+2019-04-03 15:24:34,799 - console - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:24:34,812 - console - INFO 开始执行登记非拼团操作，使用数据{'productId': '21', 'enregisterShare': '10', 'isAutoSurvival': '2'}
+2019-04-03 15:24:35,116 - console - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113341506128871427","sysMark":null}
+2019-04-03 15:24:35,119 - console - INFO 接口请求成功
+2019-04-03 15:24:35,123 - console - INFO 登记非拼团操作成功
+2019-04-03 15:24:35,127 - console - INFO ===================================================================================
+2019-04-03 15:25:04,813 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 15:25:04,844 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:25:04,848 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:25:04,924 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:25:04,928 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:25:05,008 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:25:05,012 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:25:05,046 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:25:05,049 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:25:05,094 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:25:05,103 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 15:25:05,205 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:25:05,209 - dayan.common.logger - INFO 开始执行登记非拼团操作，使用数据{'productId': '21', 'isAutoSurvival': '2', 'enregisterShare': '10'}
+2019-04-03 15:25:05,441 - dayan.common.logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113341633597964291","sysMark":null}
+2019-04-03 15:25:05,445 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 15:25:05,449 - dayan.common.logger - INFO 登记非拼团操作成功
+2019-04-03 15:25:05,453 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 15:27:29,189 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 15:27:29,214 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:27:29,217 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:27:29,431 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:27:29,435 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:27:29,511 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:27:29,518 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:27:29,562 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:27:29,566 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:27:29,624 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:27:29,628 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 15:27:29,714 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:27:29,718 - dayan.common.logger - INFO 开始执行登记非拼团操作，使用数据{'productId': '21', 'enregisterShare': '10', 'isAutoSurvival': '2'}
+2019-04-03 15:27:30,049 - dayan.common.logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113342239767166979","sysMark":null}
+2019-04-03 15:27:30,055 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 15:27:30,059 - dayan.common.logger - INFO 登记非拼团操作成功
+2019-04-03 15:27:30,063 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 15:27:30,066 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 15:27:30,095 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:27:30,100 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:27:30,317 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:27:30,321 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:27:30,394 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:27:30,398 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:27:30,432 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:27:30,436 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:27:30,497 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:27:30,501 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 15:27:30,566 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:27:30,570 - dayan.common.logger - INFO 开始执行登记拼团操作，使用数据{'productId': '21', 'enregisterShare': '20', 'togetherId': '1113317082612793346', 'isAutoSurvival': '2'}
+2019-04-03 15:27:31,060 - dayan.common.logger - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:27:31,064 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 15:27:31,068 - dayan.common.logger - INFO 登记拼团操作成功
+2019-04-03 15:27:31,071 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 15:27:31,074 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 15:27:31,100 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:27:31,103 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:27:31,257 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 15:27:41,261 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:27:41,378 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:27:41,382 - dayan.common.logger - INFO 开始获取实名短信验证码
+2019-04-03 15:27:41,451 - dayan.common.logger - INFO 获取实名短信验证码成功
+2019-04-03 15:27:41,455 - dayan.common.logger - INFO 开始进行实名操作
+2019-04-03 15:27:41,756 - dayan.common.logger - INFO 实名认证操作成功
+2019-04-03 15:27:41,759 - dayan.common.logger - INFO 开始进行风险评测操作
+2019-04-03 15:27:41,801 - dayan.common.logger - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 15:27:41,805 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:27:41,845 - dayan.common.logger - INFO 获取验证码操作结果{'message': '请求成功', 'data': None, 'code': '000000', 'sysMark': None}
+2019-04-03 15:27:41,848 - dayan.common.logger - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 15:27:41,851 - dayan.common.logger - INFO 开始执行登录操作
+2019-04-03 15:27:41,887 - dayan.common.logger - INFO 获取是否登录成功结果:请求成功
+2019-04-03 15:27:41,892 - dayan.common.logger - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDQ5MjYxLCJfIjoxNTU0Mjc2NDYxNjI3fQ.fq5hOimUQ5D9UlzUcnLSfdsWN748SF7Uevn_YbXcnvw
+2019-04-03 15:56:49,324 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 15:56:49,326 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 15:56:49,328 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 15:56:49,328 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 15:56:49,328 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 15:56:49,360 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:56:49,360 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:56:49,360 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:56:49,365 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:56:49,365 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:56:49,365 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:56:49,410 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 15:56:49,410 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 15:56:49,410 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 15:56:59,418 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:56:59,419 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:57:40,998 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 15:57:41,034 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:57:41,038 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:57:41,199 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:57:41,202 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:57:41,240 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:57:41,244 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:57:41,314 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:57:41,319 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:57:41,362 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:57:41,367 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 15:57:41,478 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:57:41,482 - dayan.common.logger - INFO 开始执行登记非拼团操作，使用数据{'enregisterShare': '10', 'productId': '21', 'isAutoSurvival': '2'}
+2019-04-03 15:57:41,785 - dayan.common.logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113349838851964931","sysMark":null}
+2019-04-03 15:57:41,789 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 15:57:41,793 - dayan.common.logger - INFO 登记非拼团操作成功
+2019-04-03 15:57:41,797 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 15:57:41,800 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 15:57:41,825 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:57:41,830 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 15:57:41,894 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:57:41,900 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 15:57:41,972 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:57:41,976 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 15:57:42,012 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:57:42,016 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 15:57:42,054 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 15:57:42,057 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 15:57:42,123 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 15:57:42,126 - dayan.common.logger - INFO 开始执行登记拼团操作，使用数据{'enregisterShare': '20', 'productId': '21', 'togetherId': '1113317082612793346', 'isAutoSurvival': '2'}
+2019-04-03 15:57:42,311 - dayan.common.logger - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 15:57:42,317 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 15:57:42,321 - dayan.common.logger - INFO 登记拼团操作成功
+2019-04-03 15:57:42,324 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 15:57:42,327 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 15:57:42,357 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 15:57:42,361 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 15:57:42,379 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 15:57:52,383 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:57:52,605 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 15:57:52,609 - dayan.common.logger - INFO 开始获取实名短信验证码
+2019-04-03 15:57:52,664 - dayan.common.logger - INFO 获取实名短信验证码成功
+2019-04-03 15:57:52,668 - dayan.common.logger - INFO 开始进行实名操作
+2019-04-03 15:57:53,135 - dayan.common.logger - INFO 实名认证操作成功
+2019-04-03 15:57:53,142 - dayan.common.logger - INFO 开始进行风险评测操作
+2019-04-03 15:57:53,309 - dayan.common.logger - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 15:57:53,314 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 15:57:53,362 - dayan.common.logger - INFO 获取验证码操作结果{'sysMark': None, 'data': None, 'message': '请求成功', 'code': '000000'}
+2019-04-03 15:57:53,367 - dayan.common.logger - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 15:57:53,371 - dayan.common.logger - INFO 开始执行登录操作
+2019-04-03 15:57:53,410 - dayan.common.logger - INFO 获取是否登录成功结果:请求成功
+2019-04-03 15:57:53,414 - dayan.common.logger - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDUxMDczLCJfIjoxNTU0Mjc4MjczMTUyfQ.TIYUfw424JH11SENZ02PtFBCH8XNjl3c5rtvA8YMCeQ
+2019-04-03 16:02:42,223 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:02:42,251 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:02:42,255 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:02:42,343 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:02:42,347 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:02:42,394 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:02:42,397 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:02:42,482 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:02:42,487 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:02:42,533 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:02:42,537 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:02:42,612 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:02:42,617 - dayan.common.logger - INFO 开始执行登记非拼团操作，使用数据{'isAutoSurvival': '2', 'enregisterShare': '10', 'productId': '21'}
+2019-04-03 16:02:42,797 - dayan.common.logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113351101878534146","sysMark":null}
+2019-04-03 16:02:42,801 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:02:42,805 - dayan.common.logger - INFO 登记非拼团操作成功
+2019-04-03 16:02:42,808 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:02:42,811 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:02:42,835 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:02:42,839 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:02:42,908 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:02:42,912 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:02:42,993 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:02:42,996 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:02:43,034 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:02:43,038 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:02:43,081 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:02:43,085 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:02:43,158 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:02:43,162 - dayan.common.logger - INFO 开始执行登记拼团操作，使用数据{'isAutoSurvival': '2', 'enregisterShare': '20', 'productId': '21', 'togetherId': '1113317082612793346'}
+2019-04-03 16:02:43,342 - dayan.common.logger - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 16:02:43,346 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:02:43,350 - dayan.common.logger - INFO 登记拼团操作成功
+2019-04-03 16:02:43,354 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:02:43,358 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:02:43,384 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:02:43,387 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 16:02:43,431 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 16:02:53,436 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:02:53,568 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:02:53,573 - dayan.common.logger - INFO 开始获取实名短信验证码
+2019-04-03 16:02:53,622 - dayan.common.logger - INFO 获取实名短信验证码成功
+2019-04-03 16:02:53,626 - dayan.common.logger - INFO 开始进行实名操作
+2019-04-03 16:02:53,894 - dayan.common.logger - INFO 实名认证操作成功
+2019-04-03 16:02:53,897 - dayan.common.logger - INFO 开始进行风险评测操作
+2019-04-03 16:02:53,964 - dayan.common.logger - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 16:02:53,968 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 16:02:54,040 - dayan.common.logger - INFO 获取验证码操作结果{'sysMark': None, 'data': None, 'code': '000000', 'message': '请求成功'}
+2019-04-03 16:02:54,045 - dayan.common.logger - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 16:02:54,048 - dayan.common.logger - INFO 开始执行登录操作
+2019-04-03 16:02:54,085 - dayan.common.logger - INFO 获取是否登录成功结果:请求成功
+2019-04-03 16:02:54,090 - dayan.common.logger - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDUxMzczLCJfIjoxNTU0Mjc4NTczODMwfQ.nxfEJN2aZGhGu1WSiSguhx3xC8Ri2lXZsfKC4Xh5Kzw
+2019-04-03 16:04:34,633 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:04:34,662 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:04:34,666 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:04:34,741 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:04:34,745 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:04:34,794 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:04:34,798 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:04:34,868 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:04:34,872 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:04:34,921 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:04:34,925 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:04:35,052 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:04:35,056 - dayan.common.logger - INFO 开始执行登记非拼团操作，使用数据{'isAutoSurvival': '2', 'productId': '21', 'enregisterShare': '10'}
+2019-04-03 16:04:35,262 - dayan.common.logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113351573490270211","sysMark":null}
+2019-04-03 16:04:35,266 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:04:35,270 - dayan.common.logger - INFO 登记非拼团操作成功
+2019-04-03 16:04:35,276 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:04:35,280 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:04:35,307 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:04:35,311 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:04:35,382 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:04:35,386 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:04:35,458 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:04:35,463 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:04:35,520 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:04:35,524 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:04:35,588 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:04:35,594 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:04:35,671 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:04:35,675 - dayan.common.logger - INFO 开始执行登记拼团操作，使用数据{'togetherId': '1113317082612793346', 'isAutoSurvival': '2', 'productId': '21', 'enregisterShare': '20'}
+2019-04-03 16:04:35,841 - dayan.common.logger - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 16:04:35,845 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:04:35,849 - dayan.common.logger - INFO 登记拼团操作成功
+2019-04-03 16:04:35,853 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:04:35,857 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:04:35,884 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:04:35,889 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 16:04:35,952 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 16:04:45,958 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:04:46,080 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:04:46,084 - dayan.common.logger - INFO 开始获取实名短信验证码
+2019-04-03 16:04:46,158 - dayan.common.logger - INFO 获取实名短信验证码成功
+2019-04-03 16:04:46,162 - dayan.common.logger - INFO 开始进行实名操作
+2019-04-03 16:04:46,436 - dayan.common.logger - INFO 实名认证操作成功
+2019-04-03 16:04:46,440 - dayan.common.logger - INFO 开始进行风险评测操作
+2019-04-03 16:04:46,493 - dayan.common.logger - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 16:04:46,497 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 16:04:46,537 - dayan.common.logger - INFO 获取验证码操作结果{'code': '000000', 'message': '请求成功', 'sysMark': None, 'data': None}
+2019-04-03 16:04:46,542 - dayan.common.logger - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 16:04:46,548 - dayan.common.logger - INFO 开始执行登录操作
+2019-04-03 16:04:46,586 - dayan.common.logger - INFO 获取是否登录成功结果:请求成功
+2019-04-03 16:04:46,590 - dayan.common.logger - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDUxNDg2LCJfIjoxNTU0Mjc4Njg2MzI3fQ.7PjnBKzhfI9VcqQSbqRMI9iTuVtq67aW54Idm4GEe98
+2019-04-03 16:05:08,470 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:05:08,494 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:05:08,498 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:05:08,498 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:05:08,498 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:05:08,549 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:05:08,549 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:05:08,549 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:05:08,561 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 16:05:08,561 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 16:05:08,561 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 16:05:08,615 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 16:05:08,615 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 16:05:08,615 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 16:05:18,622 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:05:18,623 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 16:13:10,565 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:13:10,595 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:13:10,608 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:13:10,676 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:13:10,680 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:13:10,718 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:13:10,722 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:13:10,790 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:13:10,797 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:13:10,850 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:13:10,854 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:13:10,936 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:13:10,940 - dayan.common.logger - INFO 开始执行登记非拼团操作，使用数据{'isAutoSurvival': '2', 'productId': '21', 'enregisterShare': '10'}
+2019-04-03 16:13:11,114 - dayan.common.logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113353737268789250","sysMark":null}
+2019-04-03 16:13:11,120 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:13:11,124 - dayan.common.logger - INFO 登记非拼团操作成功
+2019-04-03 16:13:11,127 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:13:11,131 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:13:11,164 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:13:11,168 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:13:11,254 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:13:11,258 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:13:11,348 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:13:11,355 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:13:11,403 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:13:11,406 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:13:11,465 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:13:11,470 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:13:11,533 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:13:11,544 - dayan.common.logger - INFO 开始执行登记拼团操作，使用数据{'togetherId': '1113317082612793346', 'productId': '21', 'isAutoSurvival': '2', 'enregisterShare': '20'}
+2019-04-03 16:13:11,829 - dayan.common.logger - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 16:13:11,834 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:13:11,839 - dayan.common.logger - INFO 登记拼团操作成功
+2019-04-03 16:13:11,843 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:13:11,846 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:13:11,881 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:13:11,886 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 16:13:11,900 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 16:13:21,907 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:13:22,030 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:13:22,035 - dayan.common.logger - INFO 开始获取实名短信验证码
+2019-04-03 16:13:22,079 - dayan.common.logger - INFO 获取实名短信验证码成功
+2019-04-03 16:13:22,084 - dayan.common.logger - INFO 开始进行实名操作
+2019-04-03 16:13:22,477 - dayan.common.logger - INFO 实名认证操作成功
+2019-04-03 16:13:22,483 - dayan.common.logger - INFO 开始进行风险评测操作
+2019-04-03 16:13:22,519 - dayan.common.logger - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 16:13:22,523 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 16:13:22,564 - dayan.common.logger - INFO 获取验证码操作结果{'data': None, 'code': '000000', 'sysMark': None, 'message': '请求成功'}
+2019-04-03 16:13:22,569 - dayan.common.logger - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 16:13:22,572 - dayan.common.logger - INFO 开始执行登录操作
+2019-04-03 16:13:22,606 - dayan.common.logger - INFO 获取是否登录成功结果:请求成功
+2019-04-03 16:13:22,612 - dayan.common.logger - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDUyMDAyLCJfIjoxNTU0Mjc5MjAyMzUyfQ.PITCWJs_cAeFeE28PcH2qVVAMOk02krHXfOiP0Fgwos
+2019-04-03 16:18:23,491 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:18:23,519 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:23,523 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:18:23,600 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:23,604 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:18:23,645 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:23,649 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:18:23,721 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:23,725 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:18:23,764 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:18:23,769 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:18:23,839 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:18:23,843 - dayan.common.logger - INFO 开始执行登记非拼团操作，使用数据{'productId': '21', 'enregisterShare': '10', 'isAutoSurvival': '2'}
+2019-04-03 16:18:24,007 - dayan.common.logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113355049704259586","sysMark":null}
+2019-04-03 16:18:24,011 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:18:24,014 - dayan.common.logger - INFO 登记非拼团操作成功
+2019-04-03 16:18:24,018 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:18:24,022 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:18:24,057 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:24,060 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:18:24,142 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:24,145 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:18:24,214 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:24,218 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:18:24,270 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:24,275 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:18:24,314 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:18:24,318 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:18:24,422 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:18:24,426 - dayan.common.logger - INFO 开始执行登记拼团操作，使用数据{'productId': '21', 'enregisterShare': '20', 'isAutoSurvival': '2', 'togetherId': '1113317082612793346'}
+2019-04-03 16:18:24,602 - dayan.common.logger - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 16:18:24,606 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:18:24,610 - dayan.common.logger - INFO 登记拼团操作成功
+2019-04-03 16:18:24,614 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:18:24,618 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:18:24,623 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 16:18:24,664 - dayan.common.logger - INFO 获取验证码操作结果{'message': '请求成功', 'code': '000000', 'data': None, 'sysMark': None}
+2019-04-03 16:18:24,668 - dayan.common.logger - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 16:18:24,672 - dayan.common.logger - INFO 开始执行登录操作
+2019-04-03 16:18:24,738 - dayan.common.logger - INFO 获取是否登录成功结果:请求成功
+2019-04-03 16:18:24,742 - dayan.common.logger - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDUyMzA0LCJfIjoxNTU0Mjc5NTA0NDU5fQ.ZKjS6j8LyNcEAdYbbJNyIsJfEuMNqNQHAb81pq-S-so
+2019-04-03 16:18:33,115 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:18:33,156 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:33,161 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:18:33,230 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:33,234 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:18:33,268 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:33,272 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:18:33,351 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:33,356 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:18:33,402 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:18:33,406 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:18:33,483 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:18:33,487 - dayan.common.logger - INFO 开始执行登记非拼团操作，使用数据{'enregisterShare': '10', 'productId': '21', 'isAutoSurvival': '2'}
+2019-04-03 16:18:33,670 - dayan.common.logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113355090133155842","sysMark":null}
+2019-04-03 16:18:33,674 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:18:33,677 - dayan.common.logger - INFO 登记非拼团操作成功
+2019-04-03 16:18:33,680 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:18:33,684 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:18:33,718 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:33,723 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:18:33,791 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:33,795 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:18:33,870 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:33,876 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:18:33,919 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:33,925 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:18:33,976 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:18:33,980 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:18:34,045 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:18:34,049 - dayan.common.logger - INFO 开始执行登记拼团操作，使用数据{'enregisterShare': '20', 'productId': '21', 'isAutoSurvival': '2', 'togetherId': '1113317082612793346'}
+2019-04-03 16:18:34,253 - dayan.common.logger - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 16:18:34,262 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:18:34,269 - dayan.common.logger - INFO 登记拼团操作成功
+2019-04-03 16:18:34,274 - dayan.common.logger - INFO ===================================================================================
+2019-04-03 16:18:34,279 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:18:34,308 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 16:18:34,393 - dayan.common.logger - INFO 获取验证码操作结果{'sysMark': None, 'message': '请求成功', 'code': '000000', 'data': None}
+2019-04-03 16:18:34,398 - dayan.common.logger - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 16:18:34,403 - dayan.common.logger - INFO 开始执行登录操作
+2019-04-03 16:18:34,442 - dayan.common.logger - INFO 获取是否登录成功结果:请求成功
+2019-04-03 16:18:34,447 - dayan.common.logger - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDUyMzE0LCJfIjoxNTU0Mjc5NTE0MTg1fQ.z_yay2gty4Oz3YPMFuGjh0cqQjvhNLJyyrOw8MGaeP0
+2019-04-03 16:19:10,318 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:19:10,360 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:19:10,364 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 16:19:10,407 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 16:19:10,412 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:19:10,532 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:19:10,536 - dayan.common.logger - INFO 开始获取实名短信验证码
+2019-04-03 16:19:10,578 - dayan.common.logger - INFO 获取实名短信验证码成功
+2019-04-03 16:19:10,582 - dayan.common.logger - INFO 开始进行实名操作
+2019-04-03 16:19:11,035 - dayan.common.logger - INFO 实名认证操作成功
+2019-04-03 16:19:11,039 - dayan.common.logger - INFO 开始进行风险评测操作
+2019-04-03 16:19:11,087 - dayan.common.logger - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 16:19:28,387 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:19:28,440 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:19:28,444 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 16:19:28,508 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 16:19:28,512 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:19:28,644 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:19:28,648 - dayan.common.logger - INFO 开始获取实名短信验证码
+2019-04-03 16:19:28,694 - dayan.common.logger - INFO 获取实名短信验证码成功
+2019-04-03 16:19:28,697 - dayan.common.logger - INFO 开始进行实名操作
+2019-04-03 16:19:29,083 - dayan.common.logger - INFO 实名认证操作成功
+2019-04-03 16:19:29,088 - dayan.common.logger - INFO 开始进行风险评测操作
+2019-04-03 16:19:29,144 - dayan.common.logger - INFO 风险评测操作成功，结果为：进取型
+2019-04-03 16:34:50,713 - dayan.common.logger - INFO 开始执行数据清理操作
+2019-04-03 16:34:50,754 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:34:50,758 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_user_info WHERE `phone_show`='183****3333'
+2019-04-03 16:34:50,809 - dayan.common.logger - INFO 数据清理完成
+2019-04-03 16:34:50,818 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:34:50,977 - dayan.common.logger - INFO 开始执行用户注册操作，注册用户为18358333333
+2019-04-03 16:35:00,982 - dayan.common.logger - INFO 开始获取实名短信验证码
+2019-04-03 16:35:01,027 - dayan.common.logger - INFO 获取实名短信验证码成功
+2019-04-03 16:35:01,032 - dayan.common.logger - INFO 开始进行实名操作
+2019-04-03 16:35:01,464 - dayan.common.logger - INFO 实名认证操作成功
+2019-04-03 16:35:01,468 - dayan.common.logger - INFO 开始进行风险评测操作
+2019-04-03 16:35:01,513 - dayan.common.logger - INFO 风险评测操作成功，结果为：进取型

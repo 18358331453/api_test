@@ -1,6 +1,5 @@
 #coding=utf-8
 import sys
-# sys.path.append("D:\py_workspace")
 sys.path.append("D:\py_workspace\DYJR")
 import unittest
 from HTMLTestRunner import HTMLTestRunner

@@ -15,7 +15,7 @@ class Log():
         self.logger=logging.getLogger(__name__)
         self.logger.setLevel(level=logging.DEBUG)
         #日志输出格式
-        self.formatter=logging.Formatter(fmt='%(asctime)s - %(filename)s - %(levelname)s %(message)s')
+        self.formatter=logging.Formatter(fmt='%(asctime)s - %(name)s - %(levelname)s %(message)s')
 
     def console(self,level,message):
         #创建filehandle，用于写日志到文件

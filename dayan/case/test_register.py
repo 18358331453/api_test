@@ -8,25 +8,22 @@ import time
 from dayan.common.logger import Log
 
 class Test_register(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.log=Log()
-        warnings.simplefilter('ignore', ResourceWarning)
-        #删除该用户注册数据
-        cls.log.info("开始执行数据清理操作")
-        cls.ope_db=DB()
-        cls.sql="DELETE FROM dy_user_info WHERE `phone_show`='183****3333'"
-        cls.ope_db.excute(cls.sql)
-        cls.log.info("数据清理完成")
-        time.sleep(10)
-        cls.url_shiming_message='http://192.168.100.142//api/dayan/user/realAuth/sendVerificationCode/18358333333'
-        cls.url_submit_shiming='http://192.168.100.142//api/dayan/user/realAuth/ope'
-        cls.url_pingce='http://192.168.100.142//api/dayan/user/riskAssessment/ope/100'
+    log=Log()
     def setUp(self):
+        warnings.simplefilter('ignore', ResourceWarning)
+        #数据清理
+        self.log.info("开始执行数据清理操作")
+        self.ope_db=DB()
+        self.sql="DELETE FROM dy_user_info WHERE `phone_show`='183****3333'"
+        self.ope_db.excute(self.sql)
+        self.log.info("数据清理完成")
+        # time.sleep(10)
+        self.url_shiming_message='http://192.168.100.142//api/dayan/user/realAuth/sendVerificationCode/18358333333'
+        self.url_submit_shiming='http://192.168.100.142//api/dayan/user/realAuth/ope'
+        self.url_pingce='http://192.168.100.142//api/dayan/user/riskAssessment/ope/100'
         self.s=requests.session()
         self.log.info("开始执行用户注册操作，注册用户为18358333333")
         self.headers=get_headers(18358333333)
-        self.log.info("开始执行用户注册操作，注册用户为18358333333")
 
     def test_register(self):
         #获取实名验证码

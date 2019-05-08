@@ -38,6 +38,8 @@ def send_email_qq():
         print("mail has been send successfully.")
     except smtplib.SMTPException as  e:
         print(e)
+        raise
+
 
 if __name__ == '__main__':
     send_email_qq()

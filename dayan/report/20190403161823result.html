@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>接口测试生成报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-04-01 18:44:20</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:00.156581</p>
-<p class='attribute'><strong>Status:</strong> Pass 4 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-04-03 16:18:23</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:01.321549</p>
+<p class='attribute'><strong>Status:</strong> Pass 6 Error 1</p>
 
 <p class='description'>执行情况</p>
 </div>
@@ -315,7 +315,7 @@ pt2.1: git 提交测试
 </tr>
 
 <tr class='passClass'>
-    <td>test_日志登录测试.Test_login</td>
+    <td>test_enregister.Test_enregister</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -324,7 +324,7 @@ pt2.1: git 提交测试
 </tr>
 
 <tr id='pt3.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_login</div></td>
+    <td class='none'><div class='testcase'>test_enregister_together: 支持拼图的，拼团登记</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -338,12 +338,73 @@ pt2.1: git 提交测试
         </div>
         <pre>
         
-pt3.1: 2019-04-01 18:44:20,476 - logger.py - INFO 开始登录前获取验证码操作,使用手机号18358332002
-2019-04-01 18:44:20,518 - logger.py - INFO 获取验证码操作结果{'sysMark': None, 'message': '请求成功', 'code': '000000', 'data': None}
-2019-04-01 18:44:20,527 - logger.py - INFO 获取是否获取验证码成功:请求成功
-2019-04-01 18:44:20,532 - logger.py - INFO 开始执行登录操作
-2019-04-01 18:44:20,563 - logger.py - INFO 获取是否登录成功结果:请求成功
-2019-04-01 18:44:20,571 - logger.py - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0Mjg4MjYwLCJfIjoxNTU0MTE1NDYwNjk3fQ.tmFHcKDsTW3OeObLU8vstA4CxFLUVgPd8K13rXZYqNQ
+pt3.1: 2019-04-03 16:18:23,491 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:18:23,519 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:23,523 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:18:23,600 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:23,604 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:18:23,645 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:23,649 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:18:23,721 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:23,725 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:18:23,764 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:18:23,769 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:18:23,839 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:18:23,843 - dayan.common.logger - INFO 开始执行登记非拼团操作，使用数据{'productId': '21', 'enregisterShare': '10', 'isAutoSurvival': '2'}
+2019-04-03 16:18:24,007 - dayan.common.logger - INFO 登记非拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113355049704259586","sysMark":null}
+2019-04-03 16:18:24,011 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:18:24,014 - dayan.common.logger - INFO 登记非拼团操作成功
+2019-04-03 16:18:24,018 - dayan.common.logger - INFO ===================================================================================
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_enregister_together.Test_enregister</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
+</tr>
+
+<tr id='pt4.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_enregister_together: 支持拼图的，拼团登记</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
+        pass</a>
+
+    <div id='div_pt4.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt4.1: 2019-04-03 16:18:24,022 - dayan.common.logger - INFO 开始运行用例前的数据清理
+2019-04-03 16:18:24,057 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:24,060 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_info WHERE user_phone_show='183****8888'
+2019-04-03 16:18:24,142 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:24,145 - dayan.common.logger - INFO 执行语句：DELETE FROM dy_project_product_enregister_together_info WHERE originator_phone_show='183****8888'
+2019-04-03 16:18:24,214 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:24,218 - dayan.common.logger - INFO 执行语句：UPDATE dy_project_product_enregister_together_info SET `now_togethe_num`=1 WHERE `together_id` = 1113317082612793346
+2019-04-03 16:18:24,270 - dayan.common.logger - INFO 开始执行sql语句
+2019-04-03 16:18:24,275 - dayan.common.logger - INFO 执行语句：DELETE from dy_instation_message WHERE uid='1113280649072508930' AND title='产品登记'
+2019-04-03 16:18:24,314 - dayan.common.logger - INFO 数据清理成功，关闭数据库连接
+2019-04-03 16:18:24,318 - dayan.common.logger - INFO 开始测试前的账号登陆准备
+2019-04-03 16:18:24,422 - dayan.common.logger - INFO 登陆成功，使用账号：18358338888
+2019-04-03 16:18:24,426 - dayan.common.logger - INFO 开始执行登记拼团操作，使用数据{'productId': '21', 'enregisterShare': '20', 'isAutoSurvival': '2', 'togetherId': '1113317082612793346'}
+2019-04-03 16:18:24,602 - dayan.common.logger - INFO 登记拼团操作状态码:200,返回数据为{"code":"000000","message":"请求成功","data":"1113317082612793346","sysMark":null}
+2019-04-03 16:18:24,606 - dayan.common.logger - INFO 接口请求成功
+2019-04-03 16:18:24,610 - dayan.common.logger - INFO 登记拼团操作成功
+2019-04-03 16:18:24,614 - dayan.common.logger - INFO ===================================================================================
 
 
         </pre>
@@ -354,46 +415,73 @@ pt3.1: 2019-04-01 18:44:20,476 - logger.py - INFO 开始登录前获取验证码
 </tr>
 
 <tr class='errorClass'>
-    <td>unittest.loader.ModuleImportFailure</td>
+    <td>test_register.Test_register</td>
     <td>1</td>
     <td>0</td>
     <td>0</td>
     <td>1</td>
-    <td><a href="javascript:showClassDetail('c4',1)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c5',1)">Detail</a></td>
 </tr>
 
-<tr id='ft4.1' class='none'>
-    <td class='errorCase'><div class='testcase'>test_生成好看的测试报告</div></td>
+<tr id='ft5.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_register</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.1')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft5.1')" >
         error</a>
 
-    <div id='div_ft4.1' class="popup_window">
+    <div id='div_ft5.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft4.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft5.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft4.1: Traceback (most recent call last):
-  File "C:\Python34\lib\unittest\case.py", line 58, in testPartExecutor
-    yield
-  File "C:\Python34\lib\unittest\case.py", line 577, in run
-    testMethod()
-  File "C:\Python34\lib\unittest\loader.py", line 32, in testFailure
-    raise exception
-ImportError: Failed to import test module: test_生成好看的测试报告
+ft5.1: 2019-04-03 16:18:24,618 - dayan.common.logger - INFO 开始执行数据清理操作
 Traceback (most recent call last):
-  File "C:\Python34\lib\unittest\loader.py", line 312, in _find_tests
-    module = self._get_module_from_name(name)
-  File "C:\Python34\lib\unittest\loader.py", line 290, in _get_module_from_name
-    __import__(name)
-  File "D:\py_workspace\DYJR\dayan\case\test_生成好看的测试报告.py", line 6, in &lt;module&gt;
-    from qlfin_login.get_md5 import get_md5
-ImportError: No module named 'qlfin_login'
+  File "D:\py_workspace\DYJR\dayan\case\test_register.py", line 31, in setUp
+    self.ope_db.excute(cls.sql)
+NameError: name 'cls' is not defined
 
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_日志登录测试.Test_login</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c6',1)">Detail</a></td>
+</tr>
+
+<tr id='pt6.1' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_login</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt6.1')" >
+        pass</a>
+
+    <div id='div_pt6.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt6.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt6.1: 2019-04-03 16:18:24,623 - dayan.common.logger - INFO 开始登录前获取验证码操作,使用手机号18358332002
+2019-04-03 16:18:24,664 - dayan.common.logger - INFO 获取验证码操作结果{'message': '请求成功', 'code': '000000', 'data': None, 'sysMark': None}
+2019-04-03 16:18:24,668 - dayan.common.logger - INFO 获取是否获取验证码成功:请求成功
+2019-04-03 16:18:24,672 - dayan.common.logger - INFO 开始执行登录操作
+2019-04-03 16:18:24,738 - dayan.common.logger - INFO 获取是否登录成功结果:请求成功
+2019-04-03 16:18:24,742 - dayan.common.logger - INFO 获取登录成功之后的token:eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIxMTAzMjA4OTA4NzcwMDE3MjgyIiwiaXNzIjoiZGF5YW4iLCJuYW1lIjoi5byg5YWI55SfIiwiZXhwIjoxNTU0NDUyMzA0LCJfIjoxNTU0Mjc5NTA0NDU5fQ.ZKjS6j8LyNcEAdYbbJNyIsJfEuMNqNQHAb81pq-S-so
 
 
         </pre>
@@ -405,8 +493,8 @@ ImportError: No module named 'qlfin_login'
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>5</td>
-    <td>4</td>
+    <td>7</td>
+    <td>6</td>
     <td>0</td>
     <td>1</td>
     <td>&nbsp;</td>
