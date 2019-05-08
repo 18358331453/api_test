@@ -55,5 +55,6 @@ class Test_register(unittest.TestCase):
         # self.ope_db=DB()
         # self.sql="DELETE FROM dy_user_info WHERE `phone_show`='183****3333'"
         # self.ope_db.excute(self.sql)
+        #test
 if __name__=="__main__":
     unittest.main()
